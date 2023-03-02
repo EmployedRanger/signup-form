@@ -1,0 +1,29 @@
+body {
+    font-family: cardigan-titling, 'Courier New', Courier, monospace;
+}
+
+@font-face {
+    font-family: cardigan-titling;
+    src: url('cardigan-titling/cardigan-titling-rg.otf') format('truetype');
+}
+
+main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+}
+
+.picture-container {
+    max-width: 30vw;
+    max-height: auto;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+.form-container {
+    max-width: 50vw;
+
+}
