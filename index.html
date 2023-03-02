@@ -10,24 +10,56 @@
 <body>
     <div class="main-container">
         <div class="picture-container">
-            <img src="jar-stars.jpg" alt="jar containing the stars">
-            <p class="logo">ODIN</p>
-        </picture-container>
+            <img src="jar-stars.jpg" alt="Jar containing the stars" class="stars">
+            <p class="logo"><img src="odin-lined.png"> ODIN</p>
+        </div>
         <div class="form-container">
             <div class="heading">
                 <p class="para">This is not a real online service! You 
                 know you need something like this in your life to 
-                help you realize your biggest dreams.<br>
-                Sign up <em>now</em> to get started.</p>
+                help you realize your biggest dreams.</p>
+                <p class="get-started">Sign up <em>now</em> to get started.</p>
                 <p class="phrase">You <em>know</em> you want to.</p>
             </div>
             <form>
 
+                <legend>Sign up for a cookie!</legend>
+                <!-- <p class="cookie"></p> -->
+                <div class="first row">
+                    <p class="form-part">
+                        <label for="firstName">First Name<span aria-label="required"></span>*</label>
+                        <input type="text" name="first" id="firstName" placeholder="Thor">
+                    </p>
+                    <p class="form-part">
+                        <label for="lastName" required>Last Name<span aria-label="required">*</span></label>
+                        <input type="text" name="last" id="lastName" placeholder="Odinson">
+                    </p>
+                </div>
+                <div class="second row">
+                    <p class="form-part">
+                        <label for="phonenumber">Phone Number<span aria-label="required">*</span></label>
+                        <input type="tel" name="number" id="phonenumber" placeholder="123-456-7890">
+                    </p>
+                    <p class="form-part">
+                        <label for="useremail" required>Email<span aria-label="required">*</span></label>
+                        <input type="email" name="email" id="useremail" placeholder="thor@odinson.com">
+                    </p>
+                </div>
+                <div class="third row">
+                    <p class="form-part">
+                        <label for="userpass">Password<span aria-label="required">*</span></label>
+                        <input type="password" name="password" id="userpass">
+                    </p>
+                    <p class="form-part">
+                        <label for="confirmpass" required>Confirm Password<span aria-label="required">*</span></label>
+                        <input type="password" name="last" id="confirmpass">
+                    </p>
+                </div>
+
             </form>
             <footer>
-                <button class="create">Create Account</button>
-                <p>Already have an account? <strong><a 
-                    href="google.com"></a>Log in</strong></p>
+                <button class="button" role="button">Create Account</button>
+                <p>Already have an account? <strong><a href="google.com" class="login"></a>Log in</strong></p>
             </footer>
         </div>
     </div>
